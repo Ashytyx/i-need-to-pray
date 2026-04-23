@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(68, 67, 67);
+    color: white
+
+
+}
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#myForm
+{
+font-size: large;
+background-color: darkgrey;
+border: 10px solid rgb(48, 49, 48);
+border-radius: 10px;
+padding: 40px;
+max-width: 300px;
+margin-left: auto;
+box-shadow: 10px 10px black;
+}
+
+
+#submitButton
+{
+    width: 90px;
+    padding: 5px;
+    font-size: medium;
+    background-color: rgb(233, 230, 230);
+    border-radius: 5px;
+    margin-left: calc(50% - 45px);
+}
+
+input
+{
+    border-radius: 100px;
+}
+
+
+#submitButton:active{
+    animation:circle 0.5s forwards;
+}
+
+
+
+@keyframes circle {
+0%{
+    transform: translate(0vw,0vh) rotate(0deg) scale(1);
+    border-radius:0px;
+}
+
+
+50%{
+    transform: translate(0vw,0vh) rotate(0) scale(1.5);
+    border-radius:0px;
+}
+100%{
+    transform: translate(0vw,0vh) rotate(0) scale(1);
+    border-radius:0px;
+
+}
+}
