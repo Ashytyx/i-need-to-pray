@@ -1,0 +1,9 @@
+function themechange() {
+  const btn = document.getElementById("invertbtn");
+
+  btn.addEventListener("click", () => {
+    pg.classList.toggle("inverted");
+  });
+
+  document.body.classList.toggle("inverted");
+}

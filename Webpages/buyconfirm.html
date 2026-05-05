@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../Other/thestyles.css" />
+  </head>
+  <body>
+    <div id="main-nav"></div>
+    <div id="shirtFormRow">
+      <div id="shirt">
+        <img
+          src="../Images/jersey_front.png"
+          alt="Black and white t shirt with crab"
+          class="shirt1"
+        />
+      </div>
+      <div id="form">
+        <p></p>
+        <main>
+          <form id="myForm">
+            <label> Name:</label>
+            <input type="text" placeholder="enter a name here" id="nameInput" />
+            <br /><br />
+
+            <label> Email:</label>
+            <input
+              type="email"
+              placeholder="enter your email here"
+              id="emailAddress"
+            />
+            <br /><br />
+
+            <label> Address:</label>
+            <input
+              type="text"
+              placeholder="enter your adress here"
+              id="theirAdress"
+            />
+            
+            <br /><br />
+            <label> I confirm this order:</label>
+            <input type="checkbox" />
+            <br /><br />
+
+            <label> I want to recieve marketing emails:</label>
+            <input type="checkbox" />
+            <br /><br />
+
+            <button type="button" id="submitButton" onclick="clearForm()">
+              Confirm Order
+            </button>
+          </form>
+
+          </div>
+        </main>
+      </div>
+    </div>
+              <div id="team-info">
+            <h2>The Team Merchandise</h2>
+            
+            <p>
+              This is a nice cotton jersey to wear whenever, in hot or cold weather, to show support of our team!
+            </p>
+          </div>
+  </body>
+
+  <button type="button" id="invertbtn">theme change</button>
+  <script src="../Scripts/loadnavbar.js"></script>
+  <script src="../Scripts/thescript.js"></script>
+</html>
