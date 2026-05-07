@@ -4,3 +4,7 @@ function clearForm() {
   console.log("form reset");
   alert("Purchase confirmed, thank you for buying! " + name);
 }
+
+function pagedirect() {
+  window.location.href = "../buyconfirm.html";
+}

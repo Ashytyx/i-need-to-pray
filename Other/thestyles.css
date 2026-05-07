@@ -138,3 +138,38 @@ input {
   margin-top: 20px;
   max-width: fit-content;
 }
+
+/* Upcoming games page */
+#games_div {
+  zoom: 1.5;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+}
+.games {
+  border-radius: 15px;
+}
+
+#upcoming_games {
+  text-align: center;
+  background-color: rgb(94, 92, 92);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: fit-content;
+}
+/* end of upcoming games page */
+
+/*products page */
+#product_info {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  background-color: rgb(94, 92, 92);
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 20px;
+  max-width: fit-content;
+}
