@@ -6,5 +6,5 @@ function clearForm() {
 }
 
 function pagedirect() {
-  window.location.href = "../buyconfirm.html";
+  window.location.href = "../Webpages/buyconfirm.html";
 }
